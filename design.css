@@ -1,0 +1,81 @@
+html body {
+  margin: 0;
+  width: 100vh;
+}
+
+main {
+  background: #b0f1fa;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-raws: 1fr 1fr;
+}
+
+.accueil {
+  margin-top: 120px;
+  padding-top: 400px;
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-raw-start: 1;
+  grid-raw-end: 2;
+  background-image: url("https://sportsante13.fr/wp-content/uploads/2019/10/judo-4454836_1280-1170x550.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.accueil span, .accueil h1 {
+  position: absolute;
+  padding-left: 50px;
+  margin-top: -310px;
+  color: white;
+}
+.accueil span {
+  margin-top: -200px;
+}
+.accueil .btn {
+  position: absolute;
+  width: 200px;
+  padding: auto;
+  margin-left: 50px;
+  margin-top: -100px;
+}
+
+aside {
+  background: red;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+article {
+  background: pink;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+article h2 {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+  margin: 10px 0;
+}
+article article, article .carte {
+  box-sizing: border-box;
+  max-width: 1300px;
+  width: 80%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-raws: 250px 250px 250px;
+  justify-content: space-around;
+  grid-gap: 30px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+article .card {
+  width: 210px;
+  height: 270px;
+}
+article .card__content {
+  padding: 15px;
+  background: #fafafa;
+}
+
+/*# sourceMappingURL=design.css.map */
